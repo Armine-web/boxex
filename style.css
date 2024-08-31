@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+}
+
+
+.app{
+    width: 500px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0px 1px 1rem gray;
+}
+
+.app .header{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.app .main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app .main .game{
+    width: 300px;
+    height: 300px;
+    border: .1rem solid;
+    background-color: gray;
+    position: relative;
+}
+
+.app .main .btn{
+    position: absolute;
+    padding: .3rem 1rem;
+}
+
+
+/* .app .main .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.app .footer{
+    text-align: center;
+}
